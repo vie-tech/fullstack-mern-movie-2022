@@ -34,7 +34,7 @@ const Topbar = () => {
   const { appState } = useSelector((state) => state.appState);
   const { themeMode } = useSelector((state) => state.themeMode);
 
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const dispatch = useDispatch();
 
